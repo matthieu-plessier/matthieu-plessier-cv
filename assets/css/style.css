@@ -1,6 +1,7 @@
 /* ACCUEIL ET TITRE */
 html {
     font-family: 'Montserrat', sans-serif;
+
     ;
 }
 .accueil {
@@ -10,36 +11,10 @@ html {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         color: white;
     }
-.gif {
-    width: 100vh;
-    height: 100vh;
-    text-align: center;
-    vertical-align:super;
-    
-    
-}
-.textPres {
-    width: 100vh;
-    height: 100vh;
-    text-align: center;
-    
-}
-.gifEtText {
-    
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 40px;
-}
-    h1,
-    h3 {
-        text-align: center;
-        font-size: 2rem;
-        
-    }
+
 /* FIN ACCUEIL ET TITRE */
 /* PRESENTATION */
     .presentation {
@@ -47,117 +22,21 @@ html {
         background-image: url(/assets/img/backgroundCv.jpg);
         min-height: 100vh;
     }
+.textPres {
+    font-style: italic;
+}
+.gif {
+    width: 350px;
+    
+}
+.textPres {
+    height: 100%;
+    font-size: smaller;
+}
 /* FIN PRESENTATION */
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        list-style: none;
-        text-decoration: none;
-    }
 
-    .nav-list {
-        padding: 1rem;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
 
-    .nav-item {
-        margin-right: 2rem;
-        text-transform: uppercase;
-        font-weight: 600;
-    }
 
-    .nav-item a {
-        color: white;
-        letter-spacing: 1.2px;
-    }
-
-    .nav-item:first-child {
-        margin-right: auto;
-        margin-left: 2rem;
-    }
-    .navbar {
-        font-size: 18px;
-        background-color: #001a21;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        padding-bottom: 10px;
-    }
-
-    .main-nav {
-        list-style-type: none;
-        display: none;
-    }
-
-    .nav-links,
-    .logo {
-        text-decoration: none;
-        color: white;
-    }
-
-    .main-nav li {
-        text-align: center;
-        margin: 15px auto;
-    }
-
-    .logo {
-        display: inline-block;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-
-    .navbar-toggle {
-        position: absolute;
-        top: 10px;
-        right: 20px;
-        cursor: pointer;
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 24px;
-    }
-
-    .active {
-        display: block;
-    }
-
-    @media screen and (min-width: 768px) {
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 0;
-            height: 70px;
-            align-items: center;
-        }
-
-        .main-nav {
-            display: flex;
-            margin-right: 30px;
-            flex-direction: row;
-            justify-content: flex-end;
-        }
-
-        .main-nav li {
-            margin: 0;
-        }
-
-        .nav-links {
-            margin-left: 40px;
-        }
-
-        .logo {
-            margin-top: 0;
-        }
-
-        .navbar-toggle {
-            display: none;
-        }
-
-        .logo:hover,
-        .nav-links:hover {
-            color: rgba(255, 255, 255, 1);
-        }
-    }
 /* fin navbar */
 .parcours {
     background-image: url(/assets/img/backgroundCv.jpg);
@@ -444,22 +323,24 @@ h5 {
 }
 
 .card {
-    
+    background-color: none;
+    border: none;
     margin: 30px;
 }
 .card-group {
     display: flex;
-    
+
 }
 .card-img-top {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
 }
 .card-text {
-    color: black;
+    color:white;
     font-size: 25px;
     text-align: center;
 }
 .card-body {
     background: rgba(0, 0, 0, 0.2);
+    padding: 0rem 0rem;
 }
