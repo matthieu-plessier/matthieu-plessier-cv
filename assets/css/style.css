@@ -73,10 +73,9 @@ p {
         min-height: 100vh;
         
 }
-/* timeline */
-body{
-    
-    margin-top:20px;
+/* timeline parcours*/
+h5 {
+    color: white;
 }
 
 .main-timeline {
@@ -329,15 +328,12 @@ body{
         margin-bottom: 10px
     }
 }
-
+/* hobbies */
 .card {
     background-color: none;
     border: none;
     margin: 15px;
 }
-
-
-
 .card-img-top {
     width: 30%;
     height: 40%;
@@ -351,6 +347,7 @@ body{
     
     padding: 0rem 0rem;
 }
+/* competence */
 .softAndTools {
     display: flex;
     color: white;
@@ -358,12 +355,26 @@ body{
     vertical-align: middle;
 }
 .soft {
-    background: rgba(250, 250, 250, 0.2);
+    text-align: center;
     height: 100%;
     width: 50%;
 }
 .tools {
-    background: rgba(250, 250, 250, 0.2);
+    text-align: center;
     height: 100%;
     width: 50%;
+}
+/* contact */
+.linksAndContact {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.links {
+    width: 50%;
+    height: 100%;
+}
+.contacts {
+    width: 50%;
+    height: 100%;
 }
