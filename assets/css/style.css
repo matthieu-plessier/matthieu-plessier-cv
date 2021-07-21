@@ -65,7 +65,7 @@ p {
 }
 .hobbies {
     background-image: url(/assets/img/backgroundCv.jpg);
-        min-height: 100vh;
+        
         
 }
 .contact {
@@ -337,6 +337,7 @@ h5 {
 .card-img-top {
     width: 30%;
     height: 40%;
+    
 }
 .card-text {
     background: rgba(250, 250, 250, 0.2);
