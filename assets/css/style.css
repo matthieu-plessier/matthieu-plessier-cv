@@ -23,7 +23,9 @@ p {
     margin-top: 40px !important;
     align-items: center;
 }
-
+h2 {
+    font-size: 50px;
+}
 /* FIN ACCUEIL ET TITRE */
 /* PRESENTATION */
     .presentation {
@@ -44,7 +46,6 @@ p {
     font-size: smaller;
 }
 /* FIN PRESENTATION */
-
 
 
 /* fin navbar */
@@ -368,15 +369,18 @@ h5 {
 }
 /* contact */
 .linksAndContact {
+    margin-top: 30px;
     display: flex;
     height: 100%;
     width: 100%;
+    align-items: center;
 }
 .links {
     width: 50%;
     height: 100%;
     color: white;
     margin-left: 20px;
+    text-align: center;
 }
 .icone {
     margin: 25px;
@@ -386,4 +390,5 @@ h5 {
     width: 50%;
     height: 100%;
     margin: 10px;
+    text-align: center;
 }
