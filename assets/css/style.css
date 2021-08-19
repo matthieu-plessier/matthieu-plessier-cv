@@ -61,7 +61,8 @@ h2 {
 }
 .portefolio {
     background-image: url(../img/backgroundCv.jpg);
-        min-height: 100vh;
+    
+    
         
 }
 .hobbies {
@@ -371,7 +372,8 @@ h5 {
 
 #carouselExampleCaptions {
     text-align: center;
-    margin: 100px!important;
+    margin: 100px 0;
+    
 }
 .carousel-caption {
     color: black!important;
