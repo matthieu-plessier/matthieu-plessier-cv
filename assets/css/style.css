@@ -50,27 +50,27 @@ h2 {
 
 /* fin navbar */
 .parcours {
-    background-image: url(assets/img/backgroundCv.jpg);
+    background-image: url(../img/backgroundCv.jpg);
         min-height: 100vh;
         
 }
 .competences {
-    background-image: url(assets/img/backgroundCv.jpg);
+    background-image: url(../img/backgroundCv.jpg);
         min-height: 100vh;
         
 }
 .portefolio {
-    background-image: url(assets/img/backgroundCv.jpg);
+    background-image: url(../img/backgroundCv.jpg);
         min-height: 100vh;
         
 }
 .hobbies {
-    background-image: url(assets/img/backgroundCv.jpg);
+    background-image: url(../img/backgroundCv.jpg);
         
         
 }
 .contact {
-    background-image: url(assets/img/backgroundCv.jpg);
+    background-image: url(../img/backgroundCv.jpg);
         min-height: 100vh;
         
 }
