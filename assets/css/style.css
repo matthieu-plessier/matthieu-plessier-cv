@@ -6,7 +6,7 @@ html {
 }
 .accueil {
     
-        background-image: url(assets/img/backgroundCv.jpg);
+        background-image: url(../img/backgroundCv.jpg);
         min-height: 100vh;
         width: 100%;
         display: flex;
@@ -30,7 +30,7 @@ h2 {
 /* PRESENTATION */
     .presentation {
         
-        background-image: url(assets/img/backgroundCv.jpg);
+        background-image: url(../img/backgroundCv.jpg);
         min-height: 100vh;
     }
 .textPres {
