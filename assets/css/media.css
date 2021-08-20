@@ -9,12 +9,12 @@
 
 @media (min-width: 992px) {
     :root {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
 @media (min-width: 1200px) {
     :root {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
