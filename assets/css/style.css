@@ -23,6 +23,10 @@ p {
     margin-top: 40px !important;
     align-items: center;
 }
+h1 {
+    color: white;
+    text-align: center;
+}
 h2 {
     font-size: 50px;
 }
@@ -387,7 +391,7 @@ h5 {
 }
 /* contact */
 .linksAndContact {
-    margin-top: 100px;
+    
     display: flex;
     height: 100%;
     width: 100%;
