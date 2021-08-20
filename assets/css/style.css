@@ -359,7 +359,7 @@ h5 {
 .softAndTools {
     display: flex;
     color: white;
-    height: 100vh;
+    
     vertical-align: middle;
 }
 .soft {
